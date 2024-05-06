@@ -1,0 +1,110 @@
+/* Shared style */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+.primary-button {
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  padding: 15px;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* header style  */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  margin: 0 auto;
+}
+.header-div {
+  margin: 0 120px;
+}
+nav,
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > h3 {
+  font-size: 1.5rem;
+}
+nav > ul > li {
+  margin-left: 30px;
+  list-style: none;
+}
+nav ul > li > a {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+nav ul > li > a:hover {
+  color: blue;
+}
+.header-title-container {
+  text-align: center;
+}
+.header-title {
+  margin: 0 150px;
+}
+.header-title > h1 {
+  color: rgb(19, 19, 19);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.paragrap-style {
+  color: rgb(114, 114, 114);
+  font-weight: 400;
+}
+.header-image {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* main section style  */
+main {
+  margin: 0 120px;
+}
+.quick-list-container {
+  margin-top: 50px;
+}
+.quick-list-content-title {
+  color: rgb(114, 114, 114);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.ofOur {
+  color: rgb(19, 19, 19);
+}
+.Features {
+  color: rgb(255, 144, 14);
+}
+.quick-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+.quick-list-img {
+  display: grid;
+  grid-template-columns: 2 repeat(2);
+  display: none;
+}
+
+/* Media Query style */
+/* for mobile device  */
+@media screen and (max-width: 576px) {
+  nav,
+  .quick-list-container {
+    flex-direction: column;
+  }
+
+   main,
+  .header-div,
+  .header-title {
+    margin: 0 20px;
+  }
+}
