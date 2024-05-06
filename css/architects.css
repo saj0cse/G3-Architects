@@ -162,7 +162,20 @@ main {
   margin-top: 10px;
   
 }
+.some-fact-box > h2{
+  margin-top: 0;
+  margin-bottom: 0
+}
 
+/* footer section */
+.footer-section{
+  margin: 80px;
+  align-items: center;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 10px;
+
+}
 
 
 /* Media Query style */
